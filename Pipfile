@@ -11,6 +11,13 @@ Sphinx = "*"
 [packages]
 src = {editable = true, path = "./"}
 awscli = "*"
+boto3 = "*"
+numpy = "*"
+pandas = "*"
+pyarrow = "*
+pyhive = "*"
+python-dotenv = "*"
+trino = "*"
 
 [requires]
 python_version = "3.8"
