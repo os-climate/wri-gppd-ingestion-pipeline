@@ -10,14 +10,16 @@ Sphinx = "*"
 
 [packages]
 src = {editable = true, path = "./"}
-awscli = "*"
 boto3 = "*"
 numpy = "*"
 pandas = "*"
-pyarrow = "*
+pyarrow = "*"
 pyhive = "*"
 python-dotenv = "*"
 trino = "*"
+dbt-core = "*"
+dbt-trino = "*"
+osc-ingest-tools = "*"
 
 [requires]
 python_version = "3.8"
