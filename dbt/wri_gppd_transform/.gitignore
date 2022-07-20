@@ -1,4 +1,6 @@
 
+target/
+!target
 target/*
 !target/manifest.json
 !target/catalog.json
