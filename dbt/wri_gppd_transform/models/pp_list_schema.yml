@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: pp_list
+    description: Open-source open-access dataset of grid-scale (1 MW and greater) electricity generating facilities operating across the world
+    
+    columns:
+      - name: name
+        description: Name or title of the power plant
+        tests:
+          - unique
+          - not_null
