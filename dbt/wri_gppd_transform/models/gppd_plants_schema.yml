@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: gppd_plants
+    description: Open-source open-access dataset of grid-scale (1 MW and greater) electricity generating facilities operating across the world
+    
+    columns:
+      - name: gppd_idnr
+        description: 10 or 12 character identifier for the power plant
+        tests:
+          - unique
+          - not_null
+      - name: name
+        description: name or title of the power plant, generally in Romanized form
+        tests:
+          - unique
+          - not_null
+      - name: country
+        description: 3 character country code corresponding to the ISO 3166-1 alpha-3 specification
+        tests:
+          - not_null
+      - name: country_long
+        description: longer form of the country designation
+        tests:
+          - not_null
+      - name: latitude
+        description: geolocation in decimal degrees
+        tests:
+          - not_null
+      - name: longitude
+        description: geolocation in decimal degrees
+        tests:
+          - not_null
+      - name: capacity_mw
+        description: electrical generating capacity in megawatts
+        tests:
+          - not_null
+      - name: year_of_capacity_data
+        description: year the capacity information was reported
+        tests:
+          - not_null
