@@ -3,7 +3,7 @@ version: 2
 models:
   - name: gppd_power_plants_list
     description: Open-source open-access dataset of grid-scale (1 MW and greater) electricity generating facilities operating across the world
-    
+
     columns:
       - name: gppd_idnr
         description: 10 or 12 character identifier for the power plant
