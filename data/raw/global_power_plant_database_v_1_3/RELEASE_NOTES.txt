@@ -1,4 +1,4 @@
-Release Notes for Global Power Plant Database v1.3.0                                             
+Release Notes for Global Power Plant Database v1.3.0
 
 Changes Since 1.2.0:
         Change: Remove field `estimated_generation_gwh` and add many yearly estimation fields
@@ -22,4 +22,3 @@ Changes Since 1.2.0:
        Update: Change source of Australia data, add additional NGER generation data
        Update: Add data from United Kingdom's Renewable Energy Planning Database
        Update: Add data updates from India's Central Electricity Authority
-
