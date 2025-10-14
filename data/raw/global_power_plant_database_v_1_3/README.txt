@@ -6,7 +6,7 @@ URI: http://datasets.wri.org/dataset/globalpowerplantdatabase
 Copyright: Copyright 2018-2021 World Resources Institute and Data Contributors
 License: Creative Commons Attribution 4.0 International -- CC BY 4.0
 Contact: powerexplorer@wri.org
-Citation: Global Energy Observatory, Google, KTH Royal Institute of Technology in Stockholm, Enipedia, World Resources Institute. 2019. Global Power Plant Database. Published on Resource Watch and Google Earth Engine. http://resourcewatch.org/ https://earthengine.google.com/  
+Citation: Global Energy Observatory, Google, KTH Royal Institute of Technology in Stockholm, Enipedia, World Resources Institute. 2019. Global Power Plant Database. Published on Resource Watch and Google Earth Engine. http://resourcewatch.org/ https://earthengine.google.com/
 
 
 Abstract:
@@ -21,7 +21,7 @@ The Global Power Plant Database is an open-source open-access dataset of grid-sc
 
 The Database currently contains nearly 35000 power plants in 167 countries, representing about 72% of the world's capacity.
 Entries are at the facility level only, generally defined as a single transmission grid connection point.
-Generation unit-level information is not currently available. 
+Generation unit-level information is not currently available.
 The methodology for the dataset creation is given in the World Resources Institute publication "A Global Database of Power Plants" [0].
 Associated code for the creation of the dataset can be found on GitHub [1].
 See also the technical note published in early 2020 on an improved methodology to estimate annual generation [2].
@@ -125,9 +125,9 @@ The reported generation values may correspond to a calendar year or a fiscal/reg
 
 The generation estimation note CAPACITY-FACTOR-V1 is only available for year 2017.
 This model is not available for rows with `primary_fuel` values of: Biomass, Cogeneration, Petcoke, Storage, Wave and Tidal.
-This model is selectively not applied to some country-fuel combinations for which estimations of capacity factors were greater than 90%. 
+This model is selectively not applied to some country-fuel combinations for which estimations of capacity factors were greater than 90%.
 
-Rows with `estimated_generation_note_2017` of NO-ESTIMATION account for ~5% of all rows (~1800 of ~35000) and ~1.3% of total database capacity (~77 GW of ~5700 GW). 
+Rows with `estimated_generation_note_2017` of NO-ESTIMATION account for ~5% of all rows (~1800 of ~35000) and ~1.3% of total database capacity (~77 GW of ~5700 GW).
 
 
 Updates:
@@ -140,6 +140,3 @@ The authors, advisors, and contributors hope to find continued funding and susta
 
 
 [6] powerexplorer@wri.org
-
-
-
